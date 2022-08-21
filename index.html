@@ -7,6 +7,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="slider.css">
 	<title>Saviour Care</title>
 </head>
 <body>
@@ -197,38 +198,12 @@
 		</div>
 	</section>
 
-	<section>
+	<section class="slider-section">
 		<div class="slider-content">
-			<div class="slider">
-				<div class="slider-title-border">
-				<div class="slider-title">
-					What our customers are saying
-				</div>
-				<div class="slider-border"></div>
-                </div>
-				<div class="slider-info">
-					<div class="slider-photo-text">
-						<div class="slider-photo">
-							<img src="photo.png" alt="">
-						</div>
-						<div class="slider-texts">
-							<div class="slider-text-bold">
-								AK
-							</div>
-							<div class="slider-text">
-								Abc ltd
-							</div>
-						</div>
-					</div>
-
-					<div class="slider-quote">
-						“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.” 
-					</div>
-				</div>
-			</div>
+			<div class="slider"></div>
 
 			<div class="dots-arrows">
-				<div class="left arrow" onclick="minusSlide()">
+				<div class="left arrow">
 					<img src="left.png">
 				</div>
 				<div class="dots">
@@ -237,7 +212,7 @@
 					<div class="dot"></div>
 					<div class="dot"></div>
 				</div>	
-				<div class="right arrow" onclick="plusSlide()">
+				<div class="right arrow">
 					<img src="right.png">
 				</div>
 			</div>
@@ -294,6 +269,13 @@
 			</div>
 		</div>
 	</footer>
-	<link rel="stylesheet" href="index.js">
+
+  <script src="components/user-info/Avatar.js"></script>
+  <script src="components/user-info/User.js"></script>
+  <script src="components/Testimonial.js"></script>
+  <script src="components/UserInfo.js"></script>
+  <script src="components/Title.js"></script>
+  <script src="components/Slide.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
